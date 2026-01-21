@@ -52,3 +52,4 @@ public class Card {
         return this.rank.toString().concat(" ").concat(this.suit.toString());
     }
 }
+//Practice is done. Learned Enums
