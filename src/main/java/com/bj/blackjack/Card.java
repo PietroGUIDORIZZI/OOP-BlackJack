@@ -9,13 +9,13 @@ public class Card {
         this.rank = rank;
     }
 
-    public Suit getSuit() {
-        return suit;
-    }
 
-    public int getValue() {
-        return this.rank.ordinal() + 1;
-    }
+
+
+
+        public Suit getSuit() {
+            return suit;
+        }
 
     public void setSuit(Suit suit) {
         this.suit = suit;
@@ -29,9 +29,9 @@ public class Card {
         this.rank = rank;
     }
 
-    static void main(String[] args) {
-        Card card1 = new Card(Suit.CLUBS, Rank.ACE);
-        Card card2 = new Card(Suit.SPADES, Rank.TEN);
-        
+
+    public int getValue() {
+        return this.rank.getValue();
     }
 }
+
